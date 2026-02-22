@@ -13,7 +13,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 <style>
    *{
-
    font-family: "Geist", sans-serif;
    }
    p{
@@ -28,10 +27,13 @@
 <body class=" p-10 bg-gray-100 ">
     <header>
         <h1 class="font-bold text-2xl pb-5">Job Application Tracker</h1>
-        <!--update(NavBar)-->
+        <!--cards-->
         <div class="flex gap-3 pb-10 border-b-2 border-gray-200">
 <div class="rounded border-1 w-1/3 h-17  pl-2 pt-1 shadow bg-white">Total</div>
-<div class="rounded border-1 w-1/3 h-17  pl-2 pt-1 bg-white shadow">Interview</div>
+<div class="rounded border-1 w-1/3 h-17  pl-2 pt-1 bg-white shadow">
+    <h1>Interview</h1>
+    <h1 id="interview-value">0</h1>
+</div>
 <div class="rounded border-1 w-1/3 h-17  pl-2 pt-1 shadow bg-white ">Rejected</div>
 </div>
 </header>
@@ -41,22 +43,23 @@
 <h1 class="font-bold py-3 text-3xl">Available Jobs</h1>
  <dib id="available-job-number"></dib>
 </section>
-<!--buttons-->
+<!--buttons tab-->
 <div class="flex gap-5">
-    <button class="text-gray-500 rounded border-2 w-10 shadow">All</button>
-    <button class="text-gray-500 rounded border-2 w-22 shadow">Interview</button>
-    <button class="text-gray-500 rounded border-2 w-20 shadow">Rejected</button>
+    <button class="text-gray-500 rounded border-2 w-10 shadow" id="all-tab">All</button>
+    <button class="text-gray-500 rounded border-2 w-22 shadow" id="interview-tab">Interview</button>
+    <button class="text-gray-500 rounded border-2 w-20 shadow" id="rejected-tab">Rejected</button>
 </div>
 <!--jobs-->
 <!--job-1-->
 <section id="Job-Cards">
-<div class="space-y-1 my-5 p-5 rounded border-2 border-gray-200 shadow ">
+<div class=" space-y-1 my-5 p-5 rounded border-2 border-gray-200 shadow " id="mobile-fast">
 <h1 class="font-semibold">Mobile First Corp</h1>
 <p>React Native Developer</p>
 <p class="py-5">Remote • Full-time • $130,000 - $175,000</p>
-<button class="bg-gray-200 rounded p-2">NOT APPLIED</button>
+<button class="bg-gray-200 rounded p-2" id="job-1-badge">NOT APPLIED</button>
 <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
-<button class="rounded border-2 border-green-500 text-green-500 p-1 mr-1">INTERVIEW</button>
+<button class="rounded border-2 border-green-500 text-green-500 p-1 mr-1" id="interview">INTERVIEW
+</button>
 <button class="rounded border-2 border-red-500 text-red-500 p-1">REJECTED</button>
 </div>
 <!--job-2-->
@@ -134,6 +137,13 @@
 <button class="rounded border-2 border-red-500 text-red-500 p-1">REJECTED</button>
 </div>
 </section>
+ <div id="div-1" class=" flex gap-1 flex-col justify-center items-center border-2 rounded border-gray-200 shadow py-5 my-5 hidden">
+      <img src="./jobs.png" alt=" ">
+        <h1>No Job Available</h1>
+        <p>Check back soon for new Job Opportunities.</p>
+    </div>
    </main>
+   <script src="./machine.js"></script>
+   <script src="./function.js"></script>
 </body>
 </html>
