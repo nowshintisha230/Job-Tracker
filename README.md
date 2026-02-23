@@ -1,5 +1,5 @@
 ## ANS TO THE QUES NO :01
-**The Differences Between getElementById, getElementsByClassName, and querySelector / querySelectorAll**
+**The Differences Between getElementById, getElementsByClassName, and querySelector / querySelectorAll:**
 
 ### **getElementById**
 1. Selects a single element using its unique id.
@@ -26,16 +26,16 @@
 
 
 ## ANS TO THE QUES NO :02
- **The process of create and insert a new element into the DOM**
+ **The process of create and insert a new element into the DOM:**
 1. First, create a new element using the document object.
 2. Then, add content (text, attributes, or class) to the element.
 3. Finally, insert or append the element into a selected parent element in the DOM.
- **In short:**Create → Customize → Insert into parent element.
+ ### In short: Create → Customize → Insert into parent element.
 
 
  ## ANS TO THE QUES NO :03
- **Event Building Definition and proccess of how it works**
-**Definition:**Event Bubbling is a process where an event starts from the target element and then moves upward through its parent elements in the DOM hierarchy.
+ ### Event Building Definition and proccess of how it works
+**Definition:** Event Bubbling is a process where an event starts from the target element and then moves upward through its parent elements in the DOM hierarchy.
 **How it works:**
 1. When an event (like click) happens on a child element, it is triggered first on that element.
 2. Then the same event moves to its parent element.
@@ -44,8 +44,8 @@ So, the event flows from inside to outside (bottom to top).
 
 
 ## ANS TO THE QUES NO:04
-**Definition of Event Delegation in javascript and its advantage**
-**Definition:**Event Delegation is a technique where you attach a single event listener to a parent element instead of adding event listeners to multiple child elements.
+### Definition of Event Delegation in javascript and its advantage
+**Definition:** Event Delegation is a technique where you attach a single event listener to a parent element instead of adding event listeners to multiple child elements.
 **Why it is useful:**
 1. Improves performance (fewer event listeners).
 2. Works for dynamically added elements.
