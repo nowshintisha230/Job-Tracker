@@ -65,14 +65,16 @@ Right click index.html → Open with Live Server
 ---
 
 ## 🔗 Live Link & GitHub Repository
-- 🌐 **Live Site:** https://your-live-link.com  
-- 💻 **GitHub Repository:** https://github.com/your-username/job-tracker
+- 🌐 **Live Site:**https://nowshintisha230.github.io/Job-Tracker/ 
+- 💻 **GitHub Repository:** https://github.com/nowshintisha230/job-tracker
 
 ---
 
 ## 👩‍💻 Author
 **Nafisa Nowshin Tisha**  
 Frontend Developer | CSE Student | JavaScript & Web Development Enthusiast
+
+## Some Basic Q&A 
 
 ## ANS TO THE QUES NO :01
 **The Differences Between getElementById, getElementsByClassName, and querySelector / querySelectorAll:**
