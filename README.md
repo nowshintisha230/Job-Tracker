@@ -1,3 +1,79 @@
+# 📋 Job Tracker
+
+## 📌 Project Overview
+**Job Tracker** is a responsive web application built using **HTML, CSS, and JavaScript**.  
+Users can add new jobs, delete unwanted jobs, view available jobs, and track statistics like total added jobs and total deleted jobs.  
+This project demonstrates **vanilla JS frontend development**, interactive UI, and responsive design principles.
+
+---
+
+## 📸 Screenshot
+<img width="1864" height="909" alt="Screenshot 2026-04-09 103323" src="https://github.com/user-attachments/assets/815c90ad-ccbf-43b9-a269-ff0331f84af2" />
+-----
+<img width="1836" height="913" alt="Screenshot 2026-04-09 103347" src="https://github.com/user-attachments/assets/fae78fb7-47e6-42d0-b438-0e172aa65ffc" />
+----
+<img width="1918" height="904" alt="Screenshot 2026-04-09 103401" src="https://github.com/user-attachments/assets/23cd92c9-1013-4443-a29a-d565476398bf" />
+----
+
+
+---
+
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- Font Awesome (for icons)  
+- Local Storage (for saving jobs)  
+
+---
+
+## ✨ Main Features
+- **Add / Delete Jobs:** Users can add new jobs and delete unnecessary ones.  
+- **View Available Jobs:** Easily see all active jobs in a clean interface.  
+- **Job Statistics:** Track total added and total deleted jobs.  
+- **Responsive Design:** Works seamlessly across mobile, tablet, and desktop devices.  
+- **Interactive UI:** Buttons, notifications, and dynamic DOM updates using JavaScript.  
+
+---
+
+## 📦 Dependencies
+This project uses only vanilla JS and CSS. Optional dependencies:
+- Font Awesome (for icons)  
+- Google Fonts (for typography)
+
+---
+
+## 💻 How to Run Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/job-tracker.git
+```
+
+### 2️⃣ Navigate to the project folder
+```bash
+cd job-tracker
+```
+
+### 3️⃣ Open `index.html` in a browser
+Simply double click `index.html` or use VS Code Live Server extension:
+
+```bash
+Right click index.html → Open with Live Server
+```
+
+---
+
+## 🔗 Live Link & GitHub Repository
+- 🌐 **Live Site:** https://your-live-link.com  
+- 💻 **GitHub Repository:** https://github.com/your-username/job-tracker
+
+---
+
+## 👩‍💻 Author
+**Nafisa Nowshin Tisha**  
+Frontend Developer | CSE Student | JavaScript & Web Development Enthusiast
+
 ## ANS TO THE QUES NO :01
 **The Differences Between getElementById, getElementsByClassName, and querySelector / querySelectorAll:**
 
